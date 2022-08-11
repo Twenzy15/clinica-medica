@@ -1,0 +1,729 @@
+/* PÁGINA INTEIRA */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+html,body,.webview{
+  height: 100%;
+  animation-name: opacidade;
+  animation-duration: 1.5s;
+}
+/* PAGE 1 */
+
+.topo{
+  background-color: rgb(15, 175, 238);
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  left: 50%;
+}
+.i-1{
+  color: white;
+  padding: 5px;
+}
+.topo h6, i{
+  margin-top: 60px;
+  display: inline;
+  color: white;
+}
+.title{
+  margin-top: 30px;
+}
+.title h1{
+  font-size: 4rem;
+}
+.azul-claro{
+  color: rgb(15, 175, 238);
+}
+.azul-escuro{
+  color: rgb(8, 105, 143);
+}
+
+.subtitle{
+  border-left: 1px solid rgb(15, 175, 238);
+  margin-top: 30px;
+}
+.subtitle h4{
+  color: rgb(31, 142, 185);
+}
+.img-doctor img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  z-index: 1;
+}
+
+.bottom{
+  background-image: url(/img/Ativo\ 1.png);
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+  position: fixed;
+  bottom: 0;
+  z-index: 0;
+}
+.bottom img{
+  margin-left: 40%;
+}
+.bottom i{
+  color: white;
+  padding: 8px 0px 0px 5px;
+}
+.bottom .start{
+  background-color: rgb(31, 142, 185);
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  position: relative;
+  top: 900%;
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-right: 20px;
+}
+.bottom .link{
+  position: absolute;
+  color: white;
+  font-size: 0.6rem;
+  bottom: 10px;
+}
+
+/*PAGE 2*/
+
+.topo2{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  left: 60%;
+}
+.topo2 h6, i{
+  margin-top: 0px;
+  display: inline;
+  color: rgb(15, 175, 238)
+}
+.ativo2{
+  display: inline;
+}
+.ativo2 img{
+  width: 60px;
+  margin: 15px;
+}
+
+.title2{
+  margin-top: 50px;
+}
+.title2 h1{
+  font-size: 2.5rem;
+}
+.title2 p{
+  width: 90%;
+  margin-top: 30px;
+  color: black;
+}
+.imagens .doctor{
+  border: 5px solid rgb(8, 105, 143);
+  border-radius: 25px;
+  width: 60%;
+  height: 20;
+  z-index: 999;
+  position: absolute;
+  bottom: 10%;
+}
+.imagens .ativo2{
+  position: absolute;
+  right: 10px;
+}
+.bottom2{
+  position: absolute;
+  bottom: 0;
+  height: 20%;
+  width: 100%;
+  background-color: rgb(31, 142, 185);
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.bottom2 .esquerda {
+  position: absolute;
+  right: 20%;
+  bottom: 40%;
+  }
+  .bottom2 .direita{
+  position: absolute;
+  bottom: 40%;
+  right: 10%;
+  }
+  .bottom2 .link2{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-size: 0.8rem;
+  }
+
+.imagens i{
+  color: white;
+  background-color: rgb(8, 105, 143);
+  padding: 15px;
+  position: absolute;
+  bottom: 15%;
+  right: 30%;
+  z-index: 99999;
+}
+
+/*PAGE 3*/
+.topo3{
+  height: 25%;
+  background-image: linear-gradient(to right, rgb(15, 175, 238) 50%, white 50%);
+}
+.topo3 i{
+  color: rgb(15, 175, 238);
+  right: 30px;
+  line-height: 20px;
+  padding-top: 20%;
+}
+.topo3 h6{
+  color: rgb(15, 175, 238);
+  right: 55px;
+}
+.topo3 h6, i{
+  padding-top: 20%;
+  position: absolute;
+}
+.topo3 img{
+  border-radius: 30px;
+  border: 5px solid rgb(8, 105, 143);
+  width: 70%;
+  margin-top: 40%;
+  position: absolute;
+  right: 40px;
+}
+
+.title3{
+  margin-top: 40%;
+}
+.title3 h1{
+  font-size: 2.5rem;
+}
+.title3 p{
+  color: black;
+  padding: 5px;
+}
+.cartao{
+  background-color: rgb(15, 175, 238);
+  width: 80%;
+  margin-top: 10%;
+  height: 10%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.cartao p{
+  color: white;
+  padding: 10px;
+  display: flex;
+  line-height: 50px;
+}
+
+.bottom3{
+  position: absolute;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  border-radius: 10px;
+}
+.bottom3 .esquerda {
+position: absolute;
+right: 20%;
+top: 0;
+}
+.bottom3 .direita{
+position: absolute;
+top: 0;
+right: 10%;
+}
+.bottom3 i{
+  color: rgb(15, 175, 238);
+}
+.bottom3 .link3{
+  text-decoration: none;
+  color: rgb(31, 142, 185);
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  font-size: 0.8rem;
+}
+
+/*PAGE 4*/
+.topo4{
+  height: 20%;
+}
+.topo4 i{
+  font-size: 2rem;
+  padding-left: 15%;
+}
+
+.topo4 .i-logo{
+  color: rgb(15, 175, 238);
+  right: 25px;
+  line-height: 20px;
+  font-size: 16px;
+}
+.topo4 h6{
+  color: rgb(15, 175, 238);
+  right: 50px;
+}
+.topo4 h6, .i-logo{
+  padding-top: 20%;
+  position: absolute;
+}
+.title4{
+  margin-top: 0%;
+  margin-bottom: 10%;
+}
+.title4 h1{
+  font-size:2.5rem;
+}
+.main{
+  background-color: rgb(15, 175, 238);
+  height: 60%;
+  padding: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: fixed;
+  bottom: 0;
+}
+.main img{
+  position: relative;
+  top: 5%;
+  left: 12%;
+  width: 70%;
+  margin-bottom: 50px;
+}
+.main h4, p{
+  color: white;
+  font-size: 0.7rem;
+}
+.main h4{
+  font-weight: bold;
+}
+
+.bottom4 i{
+  color: white;
+}
+.bottom4 .esquerda, .direita{
+  position: absolute;
+  bottom: 10%;
+}
+.bottom4 .direita{
+  right: 10%;
+}
+.bottom4 .esquerda{
+  right: 20%;
+}
+
+/*PAGE 5*/
+
+
+.bottom5{
+  position: absolute;
+  bottom: 0;
+  height: 20%;
+  width: 100%;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.bottom5 .link5{
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.bottom5 .esquerda {
+  position: absolute;
+  right: 20%;
+  bottom: 40%;
+}
+  .bottom5 .direita{
+  position: absolute;
+  bottom: 40%;
+  right: 10%;
+}
+.bottom5 i{
+  color: rgb(15, 175, 238);
+}
+
+.main5{
+  border-radius: 15px;
+  background-color: rgb(31, 142, 185);
+  height: 30%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.main5 i{
+  color: white;
+  font-size: 2rem;
+}
+.main5 h5, .main5 p{
+  color: white;
+  margin-left: 20%;
+  font-size: 0.6rem;
+}
+.a{
+  padding: 0;
+}
+.b{
+  padding: 0;
+}
+
+.c{
+  padding: 0;
+}
+
+/*PAGE 6*/
+
+.imagens6{
+  background-image: url(/img/Screenshot_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35%;
+  position:sticky;
+  top: 2000px;
+}
+.imagens6 a img{
+  width: 50%;
+  margin-left: 40%;
+}
+
+.imagens6 .esquerda i, .imagens6 .direita i{
+  color: white;
+  background: none;
+  position: absolute;
+  padding: 0;
+}
+.imagens6 .esquerda i{
+  right: 20%;
+  bottom: 10%;
+}
+.imagens6 .direita i{
+  right: 10%;
+  bottom: 10%;
+}
+
+.title6 h1{
+  font-size: 2.5rem;
+}
+.title6 p{
+  width: 90%;
+  margin-top: 30px;
+  color: black;
+}
+
+.topo6{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  left: 60%;
+  padding-top: 20%;
+}
+.topo6 h6, i{
+  display: inline;
+  padding: 5px;
+  color: rgb(15, 175, 238)
+}
+
+/*PAGE 7*/
+
+.topo7{
+  height: 25%;
+  background-color: rgb(15, 175, 238);
+}
+.topo7 i{
+  color: white;
+  left: 90px;
+  line-height: 20px;
+  padding-top: 20%;
+}
+.topo7 h6{
+  color: white;
+  left: 30px;
+}
+.topo7 h6, i{
+  padding-top: 20%;
+  position: absolute;
+}
+.topo7 img{
+  border: 5px solid white;
+
+}
+.topo7 .p7-1{
+  width: 30%;
+  border-radius: 20px;
+  position: absolute;
+  top: 17%;
+  left: 10%;
+  width: 35%;
+}
+.topo7 .p7-2{
+  width: 50%;
+  border-right: none;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  position: absolute;
+  right: 0;
+  top: 5%;
+}
+.title7{
+  margin-top: 35%;
+}
+.title7 h1{
+  font-size: 2.5rem;
+}
+
+.cartao7{
+  width: 80%;
+  margin-top: 10%;
+  height: 5%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.cartao7 p{
+  color: black;
+  display: inline;
+  padding-top:3%;
+  padding-left: 5%;
+}
+
+.cartao7p{
+  background-color: rgb(15, 175, 238);
+  width: 80%;
+  margin-top: 10%;
+  height: 7%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.cartao7p p{
+  padding-top:2%;
+  padding-left: 5%;
+}
+.webview .cartao7p p,.webview .cartao7p span{
+  color: white;
+  display: inline;
+}
+.cartao7 span, .cartao7p span{
+  font-size: 2rem;
+  padding-bottom: 1%;
+}
+
+/*PAGE 8*/
+
+.topo8{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  left: 60%;
+}
+.topo8 h6, i{
+  margin-top: 0px;
+  display: inline;
+  color: white;
+  padding: 5px;
+}
+.topo8 i{
+  color: white;
+}
+
+.bottom8{
+  position: absolute;
+  bottom: 0;
+  height: 20%;
+  width: 100%;
+  border-radius: 10px;
+  z-index: 0;
+}
+.bottom8 .esquerda {
+  position: absolute;
+  right: 20%;
+  bottom: 40%;
+  }
+  .bottom8 .direita{
+  position: absolute;
+  bottom: 40%;
+  right: 10%;
+  }
+  .bottom8 i{
+    color: rgb(15, 175, 238);
+  }
+  .bottom8 .link2{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-size: 0.8rem;
+  }
+
+  .title8{
+    margin-top: 20px;
+  }
+  .title8 h1{
+    font-size: 2.3rem;
+    color: white;
+  }
+  .title8 p{
+    width: 90%;
+    margin-top: 30px;
+    color: white;
+  }
+
+  .fundo-azul{
+    background-color: rgb(31, 142, 185);
+    height: 90%;
+    border-radius: 30px;
+
+  }
+
+
+
+
+.infos{
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  width: 40%;
+  border-radius: 10px;
+}
+.infos img{
+  width: 90%;
+  position: absolute;
+  top: -65%;
+  left: 20%;
+}
+.infos2 img{
+  width: 90%;
+  position: absolute;
+  top: -65%;
+  left: 10%;
+}
+.infos h1{
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 1.7rem;
+}
+.infos p{
+  text-align: center;
+  margin-top: 10%;
+  padding: 5px;
+}
+.infos2 h1{
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 1.7rem;
+}
+.infos2 p{
+  text-align: center;
+  margin-top: 10%;
+  padding: 5px;
+}
+
+.infos2{
+  position: absolute;
+  top: 49.5%;
+  left: 52.5%;
+  width: 40%;
+  border-radius: 10px;
+}
+
+/*PAGE 9*/
+
+.title9 h1{
+  font-size: 2.3rem;
+}
+
+.main9{
+  width: 90%;
+  background-color: rgb(15, 175, 238);
+  height: 25%;
+  margin-top: 10%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.main9 p{
+  padding: 15px;
+  margin-top: 5%;
+}
+.main9 img{
+  width: 70%;
+  margin-left: 12%;
+}
+.preto{
+  color: black;
+}
+.topo9{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  left: 60%;
+  padding-top: 20%;
+}
+.topo9 h6, i{
+  display: inline;
+  padding: 5px;
+  color: rgb(15, 175, 238)
+}
+
+.direita i, .esquerda i{
+  font-size: 1.5rem;
+}
+
+/*  PAGE 8 BTN 1 & 2 */
+
+.lorna img{
+  width: 30%;
+}
+.descricao-lorna h1{
+  color: white;
+  text-align: center;
+}
+.descricao-lorna p{
+  padding: 20px;
+}
+
+/* ANIMAÇÃO */
+
+@keyframes opacidade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
